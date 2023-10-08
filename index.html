@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Emoji Mixer</title>
+</head>
+<body>
+    <div class="emoji-container">
+        <div class="emoji-side" id="emoji-left">
+            <!-- Display 5 emojis on the left side -->
+            <div class="emoji" onclick="selectEmoji('emoji-left', this)">&#x1F600</div>
+            <div class="emoji" onclick="selectEmoji('emoji-left', this)">&#x1F601</div>
+            <div class="emoji" onclick="selectEmoji('emoji-left', this)">&#x1F602</div>
+            <div class="emoji" onclick="selectEmoji('emoji-left', this)">&#x1F603</div>
+            <div class="emoji" onclick="selectEmoji('emoji-left', this)">&#x1F604</div>
+        </div>
+        <div class="emoji-middle">
+            <!-- Display selected emojis and a restart button in the middle -->
+            <div id="selected-emojis">Choose emojis</div>
+            <button onclick="restart()">Restart</button>
+        </div>
+        <div class="emoji-side" id="emoji-right">
+            <!-- Display 5 emojis on the right side -->
+            <div class="emoji" onclick="selectEmoji('emoji-right', this)">&#x1F605</div>
+            <div class="emoji" onclick="selectEmoji('emoji-right', this)">&#x1F606</div>
+            <div class="emoji" onclick="selectEmoji('emoji-right', this)">&#x1F607</div>
+            <div class="emoji" onclick="selectEmoji('emoji-right', this)">&#x1F608</div>
+            <div class="emoji" onclick="selectEmoji('emoji-right', this)">&#x1F609</div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

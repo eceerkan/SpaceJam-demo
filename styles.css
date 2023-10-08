@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.emoji-container {
+    display: flex;
+    align-items: center;
+}
+
+.emoji-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 36px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.emoji-middle {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    padding: 10px;
+}
+
